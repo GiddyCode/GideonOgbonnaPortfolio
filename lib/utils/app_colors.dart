@@ -1,0 +1,32 @@
+import 'package:flutter/material.dart';
+
+//original colors
+const primaryColor = Color.fromARGB(255, 255, 255, 255);
+const primaryColorLightVariant = Color(0xff3588E3);
+const infoColor = Color(0xff0DCAF0);
+const errorColor = Color(0xffDC3545);
+const successColor = Color(0xff198754);
+const warningColor = Color(0xffFFC107);
+const disableColor = Color(0xff9E9E9E);
+const borderColor = Color(0xffE5E5E5);
+const focusColor = Color(0xffDEEBFA);
+const backgroundColor = Color(0xffDEEBFA);
+const mediumEmphasisColor = Color(0xfff5F5F5);
+const highEmphasisColor = Color(0xff212121);
+const gray = Color(0xffD6D6D6);
+const grayTxt = Color(0xff7D7D7D);
+const black = Color(0xff1E1E1E);
+const primaryBlackVariantLighter = Color(0xff272828);
+const darkAshVariantAlternate = Color(0xff3D3D3D);
+const darkAsh = Color(0xff464747);
+const darkAshVariantLighter = Color(0xffA5A1A1);
+const whiteVariant = Color(0xffF1F1F1);
+const creatorYellow = Color(0xffFEC22D);
+const creatorYellowLight = Color(0xffE5B842);
+const studentGreen = Color(0xff1FCB54);
+const greenBackgroundAlt = Color(0xffE7ECE9);
+const whiteColor = Color(0xffffffff);
+const whiteButtonColour = Color(0xFFF5F5F5);
+const white = Color(0xffffffff);
+const darkGrey = Color(0xff141414);
+const lightColor = Color(0xfffffff2);
