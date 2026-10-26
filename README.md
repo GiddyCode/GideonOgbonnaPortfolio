@@ -2,11 +2,11 @@
 
 Personal portfolio and mobile/Applied AI case studies. The redesigned website is in [`site/public`](site/public), ready for Cloudflare Pages Free without a build step. See [setup and hosting](site/README.md).
 
-**Live portfolio:** https://gideon-ogbonna-portfolio.pages.dev/
+**Live portfolio:** https://gideonogbonna.dev/
 
-**Live case study:** https://gideon-ogbonna-portfolio.pages.dev/projects/voice-to-action/
+**Live case study:** https://gideonogbonna.dev/projects/voice-to-action/
 
-See [deployment status](site/DEPLOYMENT.md) for the custom-domain progress.
+See [deployment status](site/DEPLOYMENT.md) for hosting and domain verification.
 
 ## Preview the website
 
