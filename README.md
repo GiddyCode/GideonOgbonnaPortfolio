@@ -1,16 +1,21 @@
-# gideon_ogbonna_portfolio
+# Gideon Ogbonna — Portfolio
 
-A new Flutter project.
+Personal portfolio and mobile/Applied AI case studies. The redesigned website is in [`site/public`](site/public), ready for Cloudflare Pages Free without a build step. See [setup and hosting](site/README.md).
 
-## Getting Started
+## Preview the website
 
-This project is a starting point for a Flutter application.
+```sh
+python3 -m http.server 4173 --bind 127.0.0.1 --directory site/public
+```
 
-A few resources to get you started if this is your first Flutter project:
+Open http://127.0.0.1:4173/. Voice to Action case study: http://127.0.0.1:4173/projects/voice-to-action/.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Cloudflare Pages: framework None, production branch `main`, build command blank, output directory `site/public`, no environment variables. DNS and custom-domain setup follow a verified preview deployment.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Original Flutter portfolio
+
+The original 2023 Flutter prototype remains in `lib`, `web` and the platform directories. It is preserved for reference; its Dart constraint is >=2.19.6 <3.0.0, and it is not the source deployed by the new static website. The Git history retains the original implementation.
+
+## Project boundaries
+
+The portfolio documents Voice to Action as a mobile project. It is not a browser demo and does not grant access to the private app backend. Live testing requires individual approval. No credentials, private logins or runtime backups belong in this repository.

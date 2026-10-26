@@ -42,3 +42,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local deployment state and credentials
+.runtime/
+.env
+.env.*
+!.env.example
+.wrangler/
+node_modules/
