@@ -1,24 +1,95 @@
 {
   "elderberry": [
     {
-      "folder": "elderberry",
-      "file": "elderberry/Revised Login Screen.png",
+      "asset": "screens/elderberry-design-01.png",
+      "label": "Welcome & sign in \u2014 design mockup",
       "width": 414,
       "height": 894,
-      "asset": "screens/elderberry-51.webp",
-      "label": "Welcome & sign in",
-      "mockup": false,
-      "landscape": false
+      "mockup": false
     },
     {
-      "folder": "elderberry",
-      "file": "elderberry/Account MENU.png",
+      "asset": "screens/elderberry-design-02.png",
+      "label": "Customer bookings \u2014 design mockup",
       "width": 414,
       "height": 894,
-      "asset": "screens/elderberry-39.webp",
-      "label": "Provider account",
-      "mockup": false,
-      "landscape": false
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-03.png",
+      "label": "Choose a care professional \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-04.png",
+      "label": "Booking confirmation \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-05.png",
+      "label": "Provider booking requests \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-06.png",
+      "label": "Provider account \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-07.png",
+      "label": "Customer feedback \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-08.png",
+      "label": "Customer booking details \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-09.png",
+      "label": "Booking history \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-10.png",
+      "label": "Care receiver profiles \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-11.png",
+      "label": "Provider bookings in progress \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-12.png",
+      "label": "Provider booking details \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
+    },
+    {
+      "asset": "screens/elderberry-design-13.png",
+      "label": "Provider follow-up \u2014 design mockup",
+      "width": 414,
+      "height": 894,
+      "mockup": false
     }
   ],
   "rightq": [

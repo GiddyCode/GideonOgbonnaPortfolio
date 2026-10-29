@@ -87,7 +87,7 @@ page('Client & team work',client_page,'interactions/index.html')
 def project_body(project):
  body=project['body']
  if project['slug']=='gladefinance' or project['slug'] in galleries:
-  caption='Two public app-store screenshots and four source-derived Flutter previews with demo data. Preview layouts are adapted from the app code; they are not production captures.' if project['slug']=='carter' else 'Original screens from the product archive. Each view is distinct.'
+  caption='Two public app-store screenshots and four source-derived Flutter previews with demo data. Preview layouts are adapted from the app code; they are not production captures.' if project['slug']=='carter' else ('Supplied Elderberry design mockups with example content. Select any view to enlarge it.' if project['slug']=='elderberry' else 'Original screens from the product archive. Each view is distinct.')
   gallery='<section class="app-detail-gallery"><span class="section-label">04 / APP SCREENS</span><div><h2>Inside the app.</h2><figure>'+detail_visual(project)+'<figcaption>'+caption+'</figcaption></figure></div></section>'
   body=body.replace('<aside>',gallery+'<aside>',1)
  if project.get('kind')=='client':
