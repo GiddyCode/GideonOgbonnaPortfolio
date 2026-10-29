@@ -1,0 +1,275 @@
+[
+  {
+    "folder": "Eduportal",
+    "file": "Eduportal/unnamed-2.png",
+    "width": 273,
+    "height": 592,
+    "asset": "screens/eduportal-02.webp"
+  },
+  {
+    "folder": "Eduportal",
+    "file": "Eduportal/unnamed-3.png",
+    "width": 273,
+    "height": 592,
+    "asset": "screens/eduportal-03.webp"
+  },
+  {
+    "folder": "Eduportal",
+    "file": "Eduportal/unnamed-5.png",
+    "width": 273,
+    "height": 592,
+    "asset": "screens/eduportal-05.webp"
+  },
+  {
+    "folder": "Eduportal",
+    "file": "Eduportal/unnamed-6.png",
+    "width": 480,
+    "height": 480,
+    "asset": "screens/eduportal-06.webp"
+  },
+  {
+    "folder": "Eduportal",
+    "file": "Eduportal/unnamed.png",
+    "width": 273,
+    "height": 592,
+    "asset": "screens/eduportal-07.webp"
+  },
+  {
+    "folder": "Rightq welcomer",
+    "file": "Rightq welcomer/dashbord.jpg",
+    "width": 301,
+    "height": 592,
+    "asset": "screens/rightq-welcomer-09.webp"
+  },
+  {
+    "folder": "Rightq welcomer",
+    "file": "Rightq welcomer/iMockup - rightq welcomer.png",
+    "width": 788,
+    "height": 1416,
+    "asset": "screens/rightq-welcomer-10.webp"
+  },
+  {
+    "folder": "Rightq welcomer",
+    "file": "Rightq welcomer/logo.png",
+    "width": 480,
+    "height": 480,
+    "asset": "screens/rightq-welcomer-12.webp"
+  },
+  {
+    "folder": "Rightq welcomer",
+    "file": "Rightq welcomer/print tiket.jpg",
+    "width": 301,
+    "height": 592,
+    "asset": "screens/rightq-welcomer-14.webp"
+  },
+  {
+    "folder": "Rightq welcomer",
+    "file": "Rightq welcomer/select action.jpg",
+    "width": 301,
+    "height": 592,
+    "asset": "screens/rightq-welcomer-15.webp"
+  },
+  {
+    "folder": "Rightq welcomer",
+    "file": "Rightq welcomer/select services.jpg",
+    "width": 301,
+    "height": 592,
+    "asset": "screens/rightq-welcomer-16.webp"
+  },
+  {
+    "folder": "Rightq welcomer",
+    "file": "Rightq welcomer/splash.jpg",
+    "width": 333,
+    "height": 592,
+    "asset": "screens/rightq-welcomer-17.webp"
+  },
+  {
+    "folder": "Rightqkiosk",
+    "file": "Rightqkiosk/logo.png",
+    "width": 480,
+    "height": 480,
+    "asset": "screens/rightqkiosk-21.webp"
+  },
+  {
+    "folder": "Rightqkiosk",
+    "file": "Rightqkiosk/print ticket.png",
+    "width": 947,
+    "height": 592,
+    "asset": "screens/rightqkiosk-22.webp"
+  },
+  {
+    "folder": "Rightqkiosk",
+    "file": "Rightqkiosk/relax.png",
+    "width": 947,
+    "height": 592,
+    "asset": "screens/rightqkiosk-23.webp"
+  },
+  {
+    "folder": "Rightqkiosk",
+    "file": "Rightqkiosk/select  service actions.png",
+    "width": 947,
+    "height": 592,
+    "asset": "screens/rightqkiosk-24.webp"
+  },
+  {
+    "folder": "Rightqkiosk",
+    "file": "Rightqkiosk/select service.png",
+    "width": 947,
+    "height": 592,
+    "asset": "screens/rightqkiosk-25.webp"
+  },
+  {
+    "folder": "Rightqkiosk",
+    "file": "Rightqkiosk/unnamed.png",
+    "width": 947,
+    "height": 592,
+    "asset": "screens/rightqkiosk-26.webp"
+  },
+  {
+    "folder": "Schoolgate",
+    "file": "Schoolgate/iMockup - schoolgate onbording.png",
+    "width": 788,
+    "height": 1600,
+    "asset": "screens/schoolgate-27.webp"
+  },
+  {
+    "folder": "Schoolgate",
+    "file": "Schoolgate/iMockup - schoolgate.png",
+    "width": 788,
+    "height": 1415,
+    "asset": "screens/schoolgate-28.webp"
+  },
+  {
+    "folder": "Storri.ai",
+    "file": "Storri.ai/Login.png",
+    "width": 428,
+    "height": 926,
+    "asset": "screens/storri-ai-29.webp"
+  },
+  {
+    "folder": "Storri.ai",
+    "file": "Storri.ai/Sign up methods.png",
+    "width": 428,
+    "height": 926,
+    "asset": "screens/storri-ai-31.webp"
+  },
+  {
+    "folder": "Storri.ai",
+    "file": "Storri.ai/home.png",
+    "width": 428,
+    "height": 926,
+    "asset": "screens/storri-ai-32.webp"
+  },
+  {
+    "folder": "Storri.ai",
+    "file": "Storri.ai/iMockup - Bloverse.png",
+    "width": 788,
+    "height": 1415,
+    "asset": "screens/storri-ai-33.webp"
+  },
+  {
+    "folder": "Storri.ai",
+    "file": "Storri.ai/iMockup - bloverse feeds.png",
+    "width": 788,
+    "height": 1415,
+    "asset": "screens/storri-ai-34.webp"
+  },
+  {
+    "folder": "Storri.ai",
+    "file": "Storri.ai/iMockup - storri.ai.png",
+    "width": 788,
+    "height": 1600,
+    "asset": "screens/storri-ai-35.webp"
+  },
+  {
+    "folder": "Storri.ai",
+    "file": "Storri.ai/step 6.png",
+    "width": 428,
+    "height": 926,
+    "asset": "screens/storri-ai-36.webp"
+  },
+  {
+    "folder": "Superpow!",
+    "file": "Superpow!/iMockup - glade finance.png",
+    "width": 596,
+    "height": 600,
+    "asset": "screens/superpow-37.webp"
+  },
+  {
+    "folder": "Superpow!",
+    "file": "Superpow!/iMockup - superpow.png",
+    "width": 788,
+    "height": 1416,
+    "asset": "screens/superpow-38.webp"
+  },
+  {
+    "folder": "elderberry",
+    "file": "elderberry/Account MENU.png",
+    "width": 414,
+    "height": 894,
+    "asset": "screens/elderberry-39.webp"
+  },
+  {
+    "folder": "elderberry",
+    "file": "elderberry/Revised Login Screen.png",
+    "width": 414,
+    "height": 894,
+    "asset": "screens/elderberry-51.webp"
+  },
+  {
+    "folder": "relen",
+    "file": "relen/School content-1.png",
+    "width": 428,
+    "height": 926,
+    "asset": "screens/relen-52.webp"
+  },
+  {
+    "folder": "relen",
+    "file": "relen/School content.png",
+    "width": 428,
+    "height": 926,
+    "asset": "screens/relen-53.webp"
+  },
+  {
+    "folder": "relen",
+    "file": "relen/Sign in student.png",
+    "width": 428,
+    "height": 998,
+    "asset": "screens/relen-54.webp"
+  },
+  {
+    "folder": "relen",
+    "file": "relen/iMockup - relen.png",
+    "width": 788,
+    "height": 1600,
+    "asset": "screens/relen-55.webp"
+  },
+  {
+    "folder": "relen",
+    "file": "relen/signup.png",
+    "width": 428,
+    "height": 1087,
+    "asset": "screens/relen-56.webp"
+  },
+  {
+    "folder": "relen",
+    "file": "relen/splash screen-1.png",
+    "width": 428,
+    "height": 926,
+    "asset": "screens/relen-57.webp"
+  },
+  {
+    "folder": "relen",
+    "file": "relen/splash screen.png",
+    "width": 428,
+    "height": 926,
+    "asset": "screens/relen-58.webp"
+  },
+  {
+    "folder": "relen",
+    "file": "relen/splash.png",
+    "width": 428,
+    "height": 926,
+    "asset": "screens/relen-59.webp"
+  }
+]

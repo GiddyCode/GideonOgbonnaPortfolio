@@ -1,0 +1,360 @@
+{
+  "elderberry": [
+    {
+      "folder": "elderberry",
+      "file": "elderberry/Revised Login Screen.png",
+      "width": 414,
+      "height": 894,
+      "asset": "screens/elderberry-51.webp",
+      "label": "Welcome & sign in",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "elderberry",
+      "file": "elderberry/Account MENU.png",
+      "width": 414,
+      "height": 894,
+      "asset": "screens/elderberry-39.webp",
+      "label": "Provider account",
+      "mockup": false,
+      "landscape": false
+    }
+  ],
+  "rightq": [
+    {
+      "folder": "Rightqkiosk",
+      "file": "Rightqkiosk/unnamed.png",
+      "width": 947,
+      "height": 592,
+      "asset": "screens/rightqkiosk-26.webp",
+      "label": "Welcome",
+      "mockup": false,
+      "landscape": true
+    },
+    {
+      "folder": "Rightqkiosk",
+      "file": "Rightqkiosk/select service.png",
+      "width": 947,
+      "height": 592,
+      "asset": "screens/rightqkiosk-25.webp",
+      "label": "Service groups",
+      "mockup": false,
+      "landscape": true
+    },
+    {
+      "folder": "Rightqkiosk",
+      "file": "Rightqkiosk/select  service actions.png",
+      "width": 947,
+      "height": 592,
+      "asset": "screens/rightqkiosk-24.webp",
+      "label": "Service selection",
+      "mockup": false,
+      "landscape": true
+    },
+    {
+      "folder": "Rightqkiosk",
+      "file": "Rightqkiosk/print ticket.png",
+      "width": 947,
+      "height": 592,
+      "asset": "screens/rightqkiosk-22.webp",
+      "label": "Ticket confirmation",
+      "mockup": false,
+      "landscape": true
+    },
+    {
+      "folder": "Rightqkiosk",
+      "file": "Rightqkiosk/relax.png",
+      "width": 947,
+      "height": 592,
+      "asset": "screens/rightqkiosk-23.webp",
+      "label": "Queue confirmation",
+      "mockup": false,
+      "landscape": true
+    }
+  ],
+  "rightq-welcomer": [
+    {
+      "folder": "Rightq welcomer",
+      "file": "Rightq welcomer/splash.jpg",
+      "width": 333,
+      "height": 592,
+      "asset": "screens/rightq-welcomer-17.webp",
+      "label": "Welcome",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Rightq welcomer",
+      "file": "Rightq welcomer/dashbord.jpg",
+      "width": 301,
+      "height": 592,
+      "asset": "screens/rightq-welcomer-09.webp",
+      "label": "Service dashboard",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Rightq welcomer",
+      "file": "Rightq welcomer/select services.jpg",
+      "width": 301,
+      "height": 592,
+      "asset": "screens/rightq-welcomer-16.webp",
+      "label": "Available services",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Rightq welcomer",
+      "file": "Rightq welcomer/select action.jpg",
+      "width": 301,
+      "height": 592,
+      "asset": "screens/rightq-welcomer-15.webp",
+      "label": "Service areas",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Rightq welcomer",
+      "file": "Rightq welcomer/print tiket.jpg",
+      "width": 301,
+      "height": 592,
+      "asset": "screens/rightq-welcomer-14.webp",
+      "label": "Ticket actions",
+      "mockup": false,
+      "landscape": false
+    }
+  ],
+  "eduportal": [
+    {
+      "folder": "Eduportal",
+      "file": "Eduportal/unnamed-5.png",
+      "width": 273,
+      "height": 592,
+      "asset": "screens/eduportal-05.webp",
+      "label": "Welcome to Eduportal",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Eduportal",
+      "file": "Eduportal/unnamed-3.png",
+      "width": 273,
+      "height": 592,
+      "asset": "screens/eduportal-03.webp",
+      "label": "Results introduction",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Eduportal",
+      "file": "Eduportal/unnamed-2.png",
+      "width": 273,
+      "height": 592,
+      "asset": "screens/eduportal-02.webp",
+      "label": "Assignments introduction",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Eduportal",
+      "file": "Eduportal/unnamed.png",
+      "width": 273,
+      "height": 592,
+      "asset": "screens/eduportal-07.webp",
+      "label": "Student sign in",
+      "mockup": false,
+      "landscape": false
+    }
+  ],
+  "relen": [
+    {
+      "folder": "relen",
+      "file": "relen/splash screen-1.png",
+      "width": 428,
+      "height": 926,
+      "asset": "screens/relen-57.webp",
+      "label": "Welcome",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "relen",
+      "file": "relen/splash screen.png",
+      "width": 428,
+      "height": 926,
+      "asset": "screens/relen-58.webp",
+      "label": "Audio learning",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "relen",
+      "file": "relen/Sign in student.png",
+      "width": 428,
+      "height": 998,
+      "asset": "screens/relen-54.webp",
+      "label": "Student sign in",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "relen",
+      "file": "relen/signup.png",
+      "width": 428,
+      "height": 1087,
+      "asset": "screens/relen-56.webp",
+      "label": "School registration",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "relen",
+      "file": "relen/School content.png",
+      "width": 428,
+      "height": 926,
+      "asset": "screens/relen-53.webp",
+      "label": "Course library",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "relen",
+      "file": "relen/School content-1.png",
+      "width": 428,
+      "height": 926,
+      "asset": "screens/relen-52.webp",
+      "label": "Course filters",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "relen",
+      "file": "relen/splash.png",
+      "width": 428,
+      "height": 926,
+      "asset": "screens/relen-59.webp",
+      "label": "Brand introduction",
+      "mockup": false,
+      "landscape": false
+    }
+  ],
+  "storri": [
+    {
+      "folder": "Storri.ai",
+      "file": "Storri.ai/Sign up methods.png",
+      "width": 428,
+      "height": 926,
+      "asset": "screens/storri-ai-31.webp",
+      "label": "Create an account",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Storri.ai",
+      "file": "Storri.ai/Login.png",
+      "width": 428,
+      "height": 926,
+      "asset": "screens/storri-ai-29.webp",
+      "label": "Sign in",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Storri.ai",
+      "file": "Storri.ai/step 6.png",
+      "width": 428,
+      "height": 926,
+      "asset": "screens/storri-ai-36.webp",
+      "label": "Interest selection",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Storri.ai",
+      "file": "Storri.ai/home.png",
+      "width": 428,
+      "height": 926,
+      "asset": "screens/storri-ai-32.webp",
+      "label": "Story feed",
+      "mockup": false,
+      "landscape": false
+    },
+    {
+      "folder": "Storri.ai",
+      "file": "Storri.ai/iMockup - storri.ai.png",
+      "width": 788,
+      "height": 1600,
+      "asset": "screens/storri-ai-35.webp",
+      "label": "Brand introduction",
+      "mockup": true,
+      "landscape": false
+    }
+  ],
+  "bloverse": [
+    {
+      "folder": "Storri.ai",
+      "file": "Storri.ai/iMockup - Bloverse.png",
+      "width": 788,
+      "height": 1415,
+      "asset": "screens/storri-ai-33.webp",
+      "label": "Welcome to Bloverse",
+      "mockup": true,
+      "landscape": false
+    },
+    {
+      "folder": "Storri.ai",
+      "file": "Storri.ai/iMockup - bloverse feeds.png",
+      "width": 788,
+      "height": 1415,
+      "asset": "screens/storri-ai-34.webp",
+      "label": "Video feed",
+      "mockup": true,
+      "landscape": false
+    }
+  ],
+  "schoolgate": [
+    {
+      "folder": "Schoolgate",
+      "file": "Schoolgate/iMockup - schoolgate.png",
+      "width": 788,
+      "height": 1415,
+      "asset": "screens/schoolgate-28.webp",
+      "label": "Welcome",
+      "mockup": true,
+      "landscape": false
+    },
+    {
+      "folder": "Schoolgate",
+      "file": "Schoolgate/iMockup - schoolgate onbording.png",
+      "width": 788,
+      "height": 1600,
+      "asset": "screens/schoolgate-27.webp",
+      "label": "Learning introduction",
+      "mockup": true,
+      "landscape": false
+    }
+  ],
+  "superpow": [
+    {
+      "folder": "Superpow!",
+      "file": "Superpow!/iMockup - superpow.png",
+      "width": 788,
+      "height": 1416,
+      "asset": "screens/superpow-38.webp",
+      "label": "Therapist matching introduction",
+      "mockup": true,
+      "landscape": false
+    },
+    {
+      "folder": "Superpow!",
+      "file": "Superpow!/iMockup - glade finance.png",
+      "width": 596,
+      "height": 600,
+      "asset": "screens/superpow-37.webp",
+      "label": "Product presentation",
+      "mockup": true,
+      "landscape": false
+    }
+  ]
+}

@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://gideonogbonna.dev/sitemap.xml
