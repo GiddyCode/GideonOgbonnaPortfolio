@@ -20,6 +20,7 @@ def personal_projects():
  screens=''.join(f'<img loading="lazy" src="/assets/voice-{n}.png" alt="Voice to Action {n} mobile screen">' for n in ['recording','home','review'])
  return '<div class="project-grid personal-grid"><a class="project" data-reveal href="/projects/voice-to-action/"><div class="project-art"><div class="phone-trio">'+screens+'</div><span class="project-arrow">↗</span></div><div class="project-caption"><div><h3>Voice to Action</h3><p>Capture a thought. Review a possible next step.</p></div><span>Personal · Mobile + AI</span></div></a><a class="project" data-reveal href="https://github.com/GiddyCode/gemini_ai_chat"><div class="project-art sdk-art"><div class="sdk-window"><div class="window-bar"><i></i><i></i><i></i><span>gemini_ai_chat / Dart</span></div><div class="sdk-symbol">✳</div><h3>Gemini AI Chat</h3><p>A Dart SDK.<br>A Flutter starting point.</p><div class="architecture"><span>Presentation</span><b>↓</b><span>Domain</span><b>↓</b><span>Data</span></div><small>Clean architecture · SDK & examples</small></div><span class="project-arrow">↗</span></div><div class="project-caption"><div><h3>Gemini AI Chat</h3><p>Open-source chat integration, organised with care.</p></div><span>Personal · Open source</span></div></a></div>'
 client_meta={
+ 'carter':('Field service','Danihel Group Inc. · 2025–2026','Senior Mobile Engineer','Mobile field operations, schedules and service workflows.','Flutter / Dart'),
  'gladefinance':('Fintech','GladeFinance · 2022–2023','Lead Mobile Application Developer','Wallets, payments, authentication and financial-service API integration.','Flutter / Swift / Kotlin'),
  'elderberry':('Healthcare','Elderberry.care · 2023–2025','Senior Mobile Engineer','Caregiver features, scheduling, bookings, reporting and live tracking.','Flutter / Native mobile / Firebase'),
  'superpow':('Wellbeing','Through Demz Analytics · 2020–2021','Mobile Application Developer','Team contribution to a therapy product with messaging and video communication.','React Native / Flutter / WebRTC'),
@@ -51,7 +52,7 @@ def client_projects():
   if p.get('kind')!='client':continue
   category,company,role,scope,stack=client_meta[p['slug']]
   slug=p['slug']
-  cards.append(f'<article class="client-card" data-reveal data-project="{slug}"><div class="client-card-head"><h3>{p["name"]}</h3><span>{category}</span></div><div class="client-stage"><a class="client-image-link" href="/projects/{slug}/" aria-label="Read the {p["name"]} project overview"><img src="/assets/{p["image"]}" alt="Archived {p["name"]} product presentation" loading="lazy"><span class="image-caption">Explore the product ↗</span></a><div class="client-contribution" id="contribution-{slug}" hidden><span class="eyebrow">MY CONTRIBUTION</span><h4>{role}</h4><p>{scope}</p><small>{stack}</small><a href="/projects/{slug}/">Read the project story ↗</a></div></div><div class="client-card-foot"><p>{company}</p><button class="contribution-toggle" aria-expanded="false" aria-controls="contribution-{slug}">My contribution <span>+</span></button></div></article>')
+  cards.append(f'<article class="client-card" data-reveal data-project="{slug}"><div class="client-card-head"><h3>{p["name"]}</h3><span>{category}</span></div><div class="client-stage"><a class="client-image-link" href="/projects/{slug}/" aria-label="Read the {p["name"]} project overview"><img src="/assets/{p["image"]}" alt="{p["name"]} product presentation" loading="lazy"><span class="image-caption">Explore the product ↗</span></a><div class="client-contribution" id="contribution-{slug}" hidden><span class="eyebrow">MY CONTRIBUTION</span><h4>{role}</h4><p>{scope}</p><small>{stack}</small><a href="/projects/{slug}/">Read the project story ↗</a></div></div><div class="client-card-foot"><p>{company}</p><button class="contribution-toggle" aria-expanded="false" aria-controls="contribution-{slug}">My contribution <span>+</span></button></div></article>')
  return '<div class="client-grid">'+''.join(cards)+'</div>'
 companies=[('Danihel Group','danihel.svg','https://danihelgroup.com/'),('Elderberry.care','elderberry.png','https://elderberry.care/'),('GladeFinance','glade.png','https://gladefinance.co/'),('Platforms Innovations','platforms.png','https://platforms.com.ng/'),('RightCom','rightcom.svg','https://rightcom.com/'),('Demz Analytics',None,None)]
 def company_strip():
@@ -70,7 +71,7 @@ intro=company_strip()
 clients='<section class="section client-section" id="client-work"><span id="interactions" class="anchor-alias"></span><div class="section-heading" data-reveal><div><p class="eyebrow">BUILT WITH TEAMS</p><h2>Client & team work</h2></div><p>Real products I’ve contributed to.<br>Explore the screens, then take a closer look at my part.</p></div><p class="client-disclosure">Historical product visuals · Team contributions · Tap “My contribution” for context</p>'+client_projects()+'</section>'
 work='<section class="section" id="work"><div class="section-heading" data-reveal><div><p class="eyebrow">PERSONAL PROJECTS</p><h2>Selected work</h2></div><p>Independent builds exploring mobile experiences, AI engineering and useful developer tools.</p></div>'+personal_projects()+'</section>'
 about=(ROOT/'src/partials/about.html').read_text()
-experience_links={'Elderberry.care':[('Elderberry','elderberry')],'GladeFinance':[('GladeFinance','gladefinance')],'Platforms Innovations':[('Schoolgate','schoolgate'),('Eduportal','eduportal')],'Demz Analytics':[('Superpow','superpow')],'RightCom Technology':[('RightQ Kiosk','rightq'),('RightQ Welcomer','rightq-welcomer')]}
+experience_links={'Danihel Group':[('Carter App','carter')], 'Danihel Group Inc.':[('Carter App','carter')],'Elderberry.care':[('Elderberry','elderberry')],'GladeFinance':[('GladeFinance','gladefinance')],'Platforms Innovations':[('Schoolgate','schoolgate'),('Eduportal','eduportal')],'Demz Analytics':[('Superpow','superpow')],'RightCom Technology':[('RightQ Kiosk','rightq'),('RightQ Welcomer','rightq-welcomer')]}
 experience='<section class="experience section" id="experience"><div data-reveal><p class="eyebrow">ALONG THE WAY</p><h2>Built with good teams.</h2></div>'
 for date,company,role in data['experience']:
  links=''.join(f'<a href="/projects/{slug}/">{label} ↗</a>' for label,slug in experience_links.get(company,[]))
@@ -78,7 +79,7 @@ for date,company,role in data['experience']:
 experience+='</section>'
 
 page('Mobile & AI Engineer',hero+intro+clients+work+about+experience)
-collection_nav='<nav class="collection-nav" aria-label="Work collections"><a href="/work/">Personal projects <sup>02</sup></a><a href="/client-work/">Client & team work <sup>10</sup></a></nav>'
+collection_nav='<nav class="collection-nav" aria-label="Work collections"><a href="/work/">Personal projects <sup>02</sup></a><a href="/client-work/">Client & team work <sup>11</sup></a></nav>'
 page('Personal projects','<section class="page-intro"><p class="eyebrow">INDEPENDENT EXPLORATION</p><h1>Selected work.</h1><p>Personal projects in mobile and AI engineering.</p>'+collection_nav+'</section>'+work,'work/index.html')
 client_page='<section class="page-intro"><p class="eyebrow">COLLABORATIVE PRODUCT WORK</p><h1>Built together.</h1><p>Commercial and earlier client projects. Clear context for my contribution.</p>'+collection_nav+'</section>'+clients
 page('Client & team work',client_page,'client-work/index.html')
@@ -86,7 +87,7 @@ page('Client & team work',client_page,'interactions/index.html')
 def project_body(project):
  body=project['body']
  if project['slug']=='gladefinance' or project['slug'] in galleries:
-  caption='Original screens from the product archive. Each view is distinct.'
+  caption='Public app-store screenshots, including a demo profile.' if project['slug']=='carter' else 'Original screens from the product archive. Each view is distinct.'
   gallery='<section class="app-detail-gallery"><span class="section-label">04 / APP SCREENS</span><div><h2>Inside the app.</h2><figure>'+detail_visual(project)+'<figcaption>'+caption+'</figcaption></figure></div></section>'
   body=body.replace('<aside>',gallery+'<aside>',1)
  if project.get('kind')=='client':

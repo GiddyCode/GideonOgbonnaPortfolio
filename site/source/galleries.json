@@ -356,5 +356,21 @@
       "mockup": true,
       "landscape": false
     }
+  ],
+  "carter": [
+    {
+      "asset": "screens/carter-01.png",
+      "label": "Account sign-in",
+      "width": 818,
+      "height": 1735,
+      "mockup": false
+    },
+    {
+      "asset": "screens/carter-02.png",
+      "label": "Profile \u2014 public demo",
+      "width": 581,
+      "height": 1291,
+      "mockup": false
+    }
   ]
 }
