@@ -37,7 +37,7 @@ def detail_visual(p):
  collage='<div class="app-collage '+('tablet-collage' if landscape else 'phone-collage')+f' count-{min(6,len(items))}" aria-label="{p["name"]} app screen collage">'
  for i,item in enumerate(items[:6]):
   collage+=f'<button class="collage-shot shot-{i+1} '+(('already-framed ' if item['mockup'] else '')+('square-screen' if .8<item['width']/item['height']<1.2 else ''))+f'" data-screen="/assets/{item["asset"]}" data-caption="{item["label"]}" aria-label="Enlarge {p["name"]}: {item["label"]}"><img src="/assets/{item["asset"]}" alt="{item["label"]}" width="{item["width"]}" height="{item["height"]}" loading="eager"></button>'
- collage+='</div><div class="gallery-toolbar"><span>'+str(len(items))+' original views</span><a href="/assets/collages/'+slug+'.jpg" download>Download collage ↓</a></div><p class="gallery-hint">Select a screen for a closer look ↗</p><div class="screen-rail" aria-label="All project screens">'
+ collage+='</div><div class="gallery-toolbar"><span>'+str(len(items))+' views</span><a href="/assets/collages/'+slug+'.jpg" download>Download collage ↓</a></div><p class="gallery-hint">Select a screen for a closer look ↗</p><div class="screen-rail" aria-label="All project screens">'
  for item in items:
   collage+=f'<button data-screen="/assets/{item["asset"]}" data-caption="{item["label"]}" aria-label="Enlarge {item["label"]}"><img src="/assets/{item["asset"]}" alt="" width="{item["width"]}" height="{item["height"]}" loading="lazy"><span>{item["label"]}</span></button>'
  return collage+'</div>'
@@ -87,7 +87,7 @@ page('Client & team work',client_page,'interactions/index.html')
 def project_body(project):
  body=project['body']
  if project['slug']=='gladefinance' or project['slug'] in galleries:
-  caption='Public app-store screenshots, including a demo profile.' if project['slug']=='carter' else 'Original screens from the product archive. Each view is distinct.'
+  caption='Two public app-store screenshots and four source-derived Flutter previews with demo data. Preview layouts are adapted from the app code; they are not production captures.' if project['slug']=='carter' else 'Original screens from the product archive. Each view is distinct.'
   gallery='<section class="app-detail-gallery"><span class="section-label">04 / APP SCREENS</span><div><h2>Inside the app.</h2><figure>'+detail_visual(project)+'<figcaption>'+caption+'</figcaption></figure></div></section>'
   body=body.replace('<aside>',gallery+'<aside>',1)
  if project.get('kind')=='client':

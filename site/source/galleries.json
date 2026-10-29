@@ -371,6 +371,34 @@
       "width": 581,
       "height": 1291,
       "mockup": false
+    },
+    {
+      "asset": "screens/carter-preview-1.png",
+      "label": "My Work Day \u2014 source-derived demo",
+      "width": 780,
+      "height": 1688,
+      "mockup": false
+    },
+    {
+      "asset": "screens/carter-preview-2.png",
+      "label": "Future Work \u2014 source-derived demo",
+      "width": 780,
+      "height": 1688,
+      "mockup": false
+    },
+    {
+      "asset": "screens/carter-preview-3.png",
+      "label": "Order details \u2014 source-derived demo",
+      "width": 780,
+      "height": 1688,
+      "mockup": false
+    },
+    {
+      "asset": "screens/carter-preview-4.png",
+      "label": "Support \u2014 source-derived demo",
+      "width": 780,
+      "height": 1688,
+      "mockup": false
     }
   ]
 }
